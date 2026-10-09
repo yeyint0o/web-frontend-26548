@@ -1,1 +1,57 @@
 /* main.css … B さんの担当 */
+
+.box {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.title {
+  margin: 0 0 24px;
+  font-size: 28px;
+  text-align: center;
+  color: #3b2a20;
+}
+
+.list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  flex: 1;
+  padding: 24px;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.text {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b5651d;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 20px;
+  border: 2px solid #3b2a20;
+  border-radius: 6px;
+  color: #3b2a20;
+  text-decoration: none;
+}
