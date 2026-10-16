@@ -5,3 +5,9 @@ B = Main
 C = Footer
 
 My Alphabet: B Main
+
+GitHub Links:
+10: https://github.com/dabalbohara/web-frontend-26510.git
+11: https://github.com/tankistudent123-glitch/web-frontend-26511.git
+36: https://github.com/26536-hub/web-frontend-26536.git
+48: https://github.com/yeyint0o/web-frontend-26548.git

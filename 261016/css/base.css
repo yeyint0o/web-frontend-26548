@@ -1,0 +1,13 @@
+/* base.css … 先生が用意したファイル。だれも書きかえない */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+  background: #f6f1ea;
+  line-height: 1.7;
+}

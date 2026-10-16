@@ -1,0 +1,30 @@
+/* main.css … B さんの担当 */
+
+.box {
+  padding: 40px 16px;
+  background: #2b2b2b;
+  color: #ccc;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.list {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.btn {
+  color: #fff;
+}
+
+.text {
+  margin: 24px 0 0;
+  font-size: 12px;
+}
