@@ -132,7 +132,7 @@ body {
   font-weight: bold;
 }
 
-.products .product-card .product-card__button {
+.product-card__button {
   display: inline-block;
   padding: 8px 24px;
   border-radius: 6px;
