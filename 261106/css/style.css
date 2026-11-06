@@ -65,7 +65,7 @@ body {
 }
 
 /* ===== 見出し ===== */
-.section-title {
+.news__title {
   margin: 0 0 24px;
   font-size: 24px;
   text-align: center;
@@ -78,13 +78,13 @@ body {
   padding: 40px 16px;
 }
 
-.newsList {
+.news__List {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.newsList-item {
+.news__List__item {
   display: flex;
   gap: 16px;
   padding: 12px 0;
