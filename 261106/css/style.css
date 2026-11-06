@@ -38,6 +38,10 @@ body {
   text-decoration: none;
 }
 
+.site-header__link:hover {
+  color: #c8553d;
+}
+
 /* ===== メインビジュアル ===== */
 .hero {
   width: 375px;
