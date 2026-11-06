@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <img class="site-header__logo" src="images/logo.svg" alt="ベーカリー こむぎ">
+        <nav>
+            <ul class="site-header__nav">
+                <li><a class="site-header__link" href="#products">商品</a></li>
+                <li><a class="site-header__link" href="#news">お知らせ</a></li>
+                <li><a class="site-header__link" href="#acess">アクセス</a></li>
+                <li><a class="site-header__link" href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1 class="hero__title">毎朝6時、焼きたてをどうぞ。</h1>
+        <p class="hero__text">町の小さなパン屋です。北海道の小麦と、天然酵母でつくっています。</p>
+        <a class="hero__button" href="#products">商品を見る</a>
+    </div>
+
+    <section class="news" id="news">
+        <h2 class="section-title">お知らせ</h2>
+        <ul class="newsList">
+            <li class="newsList-item"><span class="date">2026.11.01</span><span
+                    class="text">冬季限定「りんごのデニッシュ」をはじめました。</span></li>
+            <li class="newsList-item"><span class="date">2026.10.20</span><span
+                    class="text">11月3日（祝）は、通常どおり営業します。</span></li>
+            <li class="newsList-item"><span class="date">2026.10.05</span><span
+                    class="text">ポイントカードのデザインが新しくなりました。</span></li>
+        </ul>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">人気の商品</h2>
+        <div class="products__list">
+            <div class="product-card">
+                <img class="product-card__image" src="img/bread.svg">
+                <h3 class="product-card__name">しっとり食パン</h3>
+                <p class="product-card__price">¥380</p>
+                <a class="product-card__button" href="#contact">予約する</a>
+            </div>
+            <div class="product-card">
+                <img class="product-card__image" src="img/bread.svg">
+                <h3 class="product-card__name">くるみのカンパーニュ</h3>
+                <p class="product-card__price">¥520</p>
+                <a class="product-card__button" href="#contact">予約する</a>
+            </div>
+            <div class="product-card">
+                <img class="product-card__image" src="img/bread.svg">
+                <h3 class="product-card__name">塩バターロール</h3>
+                <p class="product-card__price">¥160</p>
+                <a class="product-card__button" href="#contact">予約する</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="access" id="access">
+        <h2 class="section-title">アクセス</h2>
+        <table class="access__table">
+            <tr>
+                <th>住所</th>
+                <td>東京都こむぎ市みどり町1-2-3</td>
+            </tr>
+            <tr>
+                <th>営業時間</th>
+                <td>8:00〜18:00</td>
+            </tr>
+            <tr>
+                <th>定休日</th>
+                <td>月曜日</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">お問合せ</h2>
+        <form class="contact__form">
+            <label class="contact__label" for="name">お名前</label>
+            <input class="contact__input" type="text" id="username" name="name">
+            <label class="contact__label" for="email">メールアドレス</label>
+            <input type="email" id="email" name="email">
+            <label class="contact__label" for="message">ご用件</label>
+            <textarea class="contact__input" id="message" name="message" rows="4"></textarea>
+            <button class="contact__button" type="submit">送信する</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p class="site-footer__hours">営業時間 8:00〜18:00 (月曜定休)</p>
+        <a class="site-footer__link" href="">Instagram</a>
+        <p class="site-footer__copy">© 2026 ベーカリー こむぎ</p>
+    </footer>
+</body>
+
+</html>
