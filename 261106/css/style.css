@@ -76,6 +76,8 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 40px 16px;
+  border: 2px solid #c8553d;
+  border-radius: 12px;
 }
 
 .news__List {
