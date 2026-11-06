@@ -208,6 +208,11 @@ body {
   font: inherit;
 }
 
+.contact__button:hover {
+    cursor: pointer;
+  background: #2a1e15;
+}
+
 /* ===== フッター ===== */
 .site-footer {
   padding: 32px 16px;
